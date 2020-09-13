@@ -1,0 +1,94 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+$primary: #288855;
+$secondary: #ffffff;
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  color: #262627;
+}
+
+
+.btn-xl {
+  padding: 1.25rem 2.25rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+}
+
+.btn--primary {
+  border-radius: 4px;
+  color: #FFFFFF;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: $primary;
+  border: none;
+  transition: all .5s;
+
+  &:hover,
+  &:focus
+  &:active {
+    background: $primary;
+    box-shadow: 0 0 0 .2rem rgba($color: $primary, $alpha: 0.7);
+    border: none;
+    color: #fff;
+  }
+}
+
+.btn--secondary {
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  color: $primary;
+  border: none;
+  transition: all .5s;
+
+  &:hover,
+  &:focus
+  &:active {
+    background: $primary;
+    border: none;
+    color: #fff;
+  }
+}
+
+.btn--outlined {
+  border-radius: 4px;
+  color: $primary;
+  border: 2px solid $primary;
+  transition: all .5s;
+
+  &:hover,
+  &:focus
+  &:active {
+    background: $primary;
+    box-shadow: 0 0 0 .2rem rgba($color: $primary, $alpha: 0.7);
+    border: none;
+    color: #fff;
+  }
+}
+
+.apply-btn {
+  height: 50px;
+  width: 180px;
+  // padding-top: 12px;
+  // border: none;
+}
+
+
+.apply-now {    
+  font-size: 16px;
+  letter-spacing: 0;  
+  text-align: center;
+}
+
+.btn--secondary {
+
+}
+
+.page-section {
+  padding: 8rem 0;
+}

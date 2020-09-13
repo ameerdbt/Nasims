@@ -1,0 +1,41 @@
+$primary: #288855;
+$text: #444444;
+.tab-pills{
+    margin-top: 5em;    
+    height: 74px;
+    padding-top: 1em;
+}
+.tab-pills .nav-item{
+  
+  color: $text;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+.nav-pills .nav-link {
+    border-radius: 0rem; 
+    color: $text;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    height: 55px;    
+    color: #288855;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 26px;
+    background: none;
+    border: none; 
+    border-radius: none !important;  
+    border-bottom: 5px solid $primary;
+   
+   
+
+}
+.nav-pills .nav-link.active, .nav-pills .nav-item {
+
+   
+
+}

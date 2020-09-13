@@ -1,0 +1,33 @@
+$primary: #288855;
+$white: #fff;
+
+.scheme-report {
+    height: 40px;
+    width: 199px;
+    color: #444444;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 40px;
+  }
+
+  .add-btn {
+    height: 51px;
+    width: 180px;
+    border-radius: 5px;
+    background-color: $primary;
+    color: $white;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 29px;
+    padding-top: 10px;
+    transition: all .5s;
+  }
+  .add-btn:hover{
+    background-color:$white;
+    color:  $primary;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }

@@ -1,0 +1,129 @@
+#mainNav {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  transition: background-color 0.2s ease;
+  height: 81px;
+}
+#mainNav .navbar-brand {
+ font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #212529;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: #6c757d;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.75rem 0;
+}
+
+.nav-brand-group{
+  height: 53px;
+  
+}
+
+.user-img{
+  width: 40px;
+  height: 40px;
+}
+.user-img img {
+  border-radius: 50%; 
+  width: 40px;
+  margin-right: 5px;
+}
+@media (min-width: 992px) {
+  
+  #mainNav {
+    box-shadow: none;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-brand:hover {
+    color: #fff;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0 1rem;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+  }
+  #mainNav .navbar-nav .nav-item:last-child .nav-link {
+    padding-right: 0;
+  }
+  #mainNav.navbar-scrolled {
+    box-shadow: 0 1px 4px 0 rgba(171,171,171,0.5);
+    background-color: #fff;
+  }
+  #mainNav.navbar-scrolled .navbar-brand {
+    color: #212529;
+  }
+
+  #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {   
+      color: #444444;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 0;
+      line-height: 26px;
+  }
+}
+    .navbrand-title{
+      color: #444444 !important;
+      font-family: Poppins;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 0;
+      line-height: 32px;
+    }
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+
+ 
+}
+header.masthead h1 {
+  font-size: 2.25rem;
+}
+.register-for-n-power {  
+  color: #FFFFFF;  
+  font-size: 35px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 66px;
+}
+.registration-for-n-p {
+  height: 64px;
+  width: 726px;
+  color: #FFFFFF;  
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 32px;
+  text-align: center;
+}
+
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 3.5rem;
+  }
+}

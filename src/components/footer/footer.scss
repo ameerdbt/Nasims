@@ -1,0 +1,20 @@
+footer {
+  background-color: #07321B;
+  color: #fff;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+
+    &:hover {
+      text-decoration: none;
+      color: #fff;
+      opacity: 0.9;
+    }
+  }
+
+  .row {
+    justify-content: center;
+  }
+}
